@@ -17,7 +17,7 @@ public partial class SplashViewModel : ObservableObject
 
     private async void LoadSplashAsync()
     {
-        await Task.Delay(2000); // 2초 대기
+        await Task.Delay(1500); // 1.5초 대기
         await Shell.Current.GoToAsync("//MainPage"); 
     }
 }
