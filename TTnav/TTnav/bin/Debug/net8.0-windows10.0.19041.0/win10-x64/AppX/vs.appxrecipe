@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\Suresoft\TTNAV\TTNav\TTnav\TTnav\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-07T05:19:12.801</Modified>
+      <Modified>2025-08-07T06:46:12.508</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Suresoft\TTNAV\TTNav\TTnav\TTnav\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TTnav.dll">
       <PackagePath>TTnav.dll</PackagePath>
-      <Modified>2025-08-07T05:19:12.246</Modified>
+      <Modified>2025-08-07T06:46:10.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Suresoft\TTNAV\TTNav\TTnav\TTnav\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TTnav.exe</PackagePath>
-      <Modified>2025-08-07T05:19:12.277</Modified>
+      <Modified>2025-08-07T06:46:11.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Suresoft\TTNAV\TTNav\TTnav\TTnav\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

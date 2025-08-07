@@ -11,8 +11,8 @@
     <Frame
         Padding="20"
         BackgroundColor="White"
-        CornerRadius="15"
-        HasShadow="True"
+        CornerRadius="10"
+        HasShadow="False"
         HorizontalOptions="Center"
         VerticalOptions="Center"
         MaximumHeightRequest="400"
@@ -27,14 +27,16 @@
             <!-- 닫기 버튼: 오른쪽 상단 -->
             <Button
                 Text="✕"
-                FontSize="18"
-                BackgroundColor="Transparent"
+                FontSize="15"
+                BackgroundColor="Red"
                 BorderWidth="0"
                 HorizontalOptions="End"
                 VerticalOptions="Start"
-                WidthRequest="30"
-                HeightRequest="30"
-                Clicked="OnCloseClicked" />
+                WidthRequest="15"
+                HeightRequest="15"
+                Clicked="OnCloseClicked"
+                
+                />
 
             <!-- 내용 -->
             <Label
