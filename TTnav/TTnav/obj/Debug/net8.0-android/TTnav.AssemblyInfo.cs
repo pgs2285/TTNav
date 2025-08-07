@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TTnav")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+00335f713f722b3444b9793346b476db19995f72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2530bdb4c5472e982a5d454bd135b4e9b30874b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TTnav")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TTnav")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

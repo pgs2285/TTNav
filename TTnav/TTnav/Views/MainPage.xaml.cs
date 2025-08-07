@@ -1,24 +1,31 @@
-﻿namespace TTnav
+﻿using CommunityToolkit.Maui.Views;
+using System.Diagnostics;
+
+namespace TTnav.Views
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+
 
         public MainPage()
         {
             InitializeComponent();
         }
-
-        private void OnCounterClicked(object sender, EventArgs e)
+        protected override async void OnAppearing()
         {
-            count++;
+            base.OnAppearing();
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+            var adPopup = new Adpage();
+            if (Application.Current != null && Application.Current.MainPage != null)
+            {
+                await Application.Current.MainPage.ShowPopupAsync(adPopup);
+            }
             else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            {
+#if DEBUG
+                Debug.Assert(false);
+#endif
+            }
         }
     }
 

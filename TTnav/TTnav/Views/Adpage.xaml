@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:Class="TTnav.Views.Adpage"
+    CanBeDismissedByTappingOutsideOfPopup="False"
+    Color="#99000000"
+    >
+
+    <Frame
+        Padding="20"
+        BackgroundColor="White"
+        CornerRadius="15"
+        HasShadow="True"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        MaximumHeightRequest="400"
+        MaximumWidthRequest="300">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- 닫기 버튼: 오른쪽 상단 -->
+            <Button
+                Text="✕"
+                FontSize="18"
+                BackgroundColor="Transparent"
+                BorderWidth="0"
+                HorizontalOptions="End"
+                VerticalOptions="Start"
+                WidthRequest="30"
+                HeightRequest="30"
+                Clicked="OnCloseClicked" />
+
+            <!-- 내용 -->
+            <Label
+                Grid.Row="1"
+                Text="광고 또는 공지 사항입니다."
+                FontSize="18"
+                TextColor="#333"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                LineBreakMode="WordWrap" />
+        </Grid>
+
+    </Frame>
+</toolkit:Popup>
